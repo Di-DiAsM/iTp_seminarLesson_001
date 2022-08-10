@@ -1,6 +1,7 @@
-﻿// Напишите программу, которая на вход принимает число и выдаёт его квадрат (число умноженное на само себя).
+﻿// Напишите программу, которая на вход принимает число 
+// и выдаёт его квадрат (число умноженное на само себя).
 
-Console.Write("Введеите число: ");
-int num = Convert.ToInt32(Console.ReadLine());
-int sqr = num * num;
-Console.WriteLine(sqr);
+Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+int sqrNumber = number * number;
+Console.WriteLine(number + " в квадрате равно " + sqrNumber);
